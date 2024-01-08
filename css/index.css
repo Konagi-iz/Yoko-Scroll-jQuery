@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  width: fit-content;
+  height: 100%;
+}
+
+.sec {
+  flex-shrink: 0;
+  width: 1500px;
+  height: 100%;
+}
+
+.sec--01 {
+  background: red;
+}
+
+.sec--02 {
+  background: blue;
+}
+
+.sec--03 {
+  background: green;
+}
